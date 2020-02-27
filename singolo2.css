@@ -10,8 +10,8 @@ html, body {
     padding: 59px 40px 20px;
 }
 .portfolio h2,.aboutUs h2 {
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 28px;
+    font-weight: 700;
     text-transform: capitalize;
 }
 .portfolio p{
@@ -95,7 +95,7 @@ html, body {
     text-overflow: ellipsis;
     font-size: 18px;
     margin-top: 14px;
-    font-weight: 900;
+    font-weight: 400;
 }
 .innerUs h5:hover {
     overflow: visible;
