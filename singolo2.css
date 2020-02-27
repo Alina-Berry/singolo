@@ -95,7 +95,7 @@ html, body {
     text-overflow: ellipsis;
     font-size: 18px;
     margin-top: 14px;
-    font-weight: 700;
+    font-weight: 400;
 }
 .innerUs h5:hover {
     overflow: visible;
