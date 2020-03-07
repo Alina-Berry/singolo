@@ -1,7 +1,13 @@
 # Singolo # 
 
-#### Description task ####
-
 ## Part 1 ##
 
-https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/part-1/singolo-1-ru.md
+https://alina-berry.github.io/singolo/singolo1.html
+
+## Part 2 ##
+
+https://alina-berry.github.io/singolo/singolo2.html
+
+## Part 3 ##
+
+https://alina-berry.github.io/singolo/singolo3.html
