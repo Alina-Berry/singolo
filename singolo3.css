@@ -1,0 +1,158 @@
+html, body {
+    max-width: 1020px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+.getQuote {
+    padding: 59px 40px 7px;
+    background-color: #f06c64;
+    border-bottom: solid 6px #ea676b;
+    color: #f0d8d9;
+}
+.getQuote h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.getQuote p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 29px;
+    font-weight: 300;
+}
+.formWrap {
+    display: flex;
+    padding-top: 42px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: space-between;
+}
+.contactForm {
+    flex-basis: 66%;
+}
+form {
+    color: #f0d8d9;
+}
+input {
+    height: 36px;
+    padding-left: 15px;
+    padding-right: 5px;
+    font: 12px 'Lato', sans-serif;
+    color: #fff;
+    border: none;
+    background-color: #d6564f;
+}
+textarea {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 5px;
+    resize: none;
+    color: #fff;
+    font: 12px 'Lato', sans-serif;
+}
+.form {
+    width: 100%;
+    background-color: #d6564f;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+.form::placeholder {
+    color: #f48c8f;
+    font: 12px 'Lato', sans-serif;
+}
+button {
+    height: 36px;
+    width: 100px;
+    font: 16px 'Lato', sans-serif;
+    background-color: rgba(45, 48, 58, 0.8);
+    color: #f0d8d9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: 0 0 5px #2d303a;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.contactInformation {
+    flex-basis: 33%;
+    padding-left: 40px;
+}
+.contactInformation h3 {
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+.contactInformation p {
+    font-size: 12px;
+    line-height: 1.9em;
+}
+.contact {
+    margin-top: 20px;
+}
+.contact img {
+    float: left;
+    width: 12px;
+}
+.contact p {
+    margin-left: 25px;
+}
+.contact p a {
+    color: #f0d8d9;
+}
+.contact p a:hover {
+    color: #2d303a;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+footer {
+    background-color: #2d303a;
+    color: #767e9e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: space-between;
+    padding: 25px 40px;
+    font-size: 12px;
+    align-items: center;
+}
+.iconWrap ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: start;
+    list-style: none;
+}
+.iconWrap a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #666d89;
+    border-radius: 50%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 8px;
+}
+.iconWrap a:hover {
+    border-style: dotted;
+    border-radius: 35%;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.icon img {
+    height: 45%;
+}
