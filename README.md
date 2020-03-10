@@ -1,3 +1,7 @@
+# Singolo. Все части # 
+
+https://alina-berry.github.io/singolo/index.html
+
 # Singolo 1 # 
 
 https://alina-berry.github.io/singolo/singolo1.html
