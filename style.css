@@ -298,7 +298,14 @@ html, body {
     overflow: visible;
     white-space: normal;
 }
-.innerUs p {
+.hiddenText {
+    overflow: hidden;
+    text-overflow: ellipsis;
+	height: 50px;
+	margin-bottom: 25px;
+	
+}
+.innerUs p {	
     font-size: 11px;
     margin-top: 10px;
     line-height: 20px;
