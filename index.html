@@ -8,179 +8,183 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="header" class="fullNav">
         <h1>Singolo<span>*</span></h1>
-        <nav class="mainMenu">
-            <a href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Portfolio</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </nav>
+        <div class="mainMenu" id="menu-center">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#aboutUs">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </header>
-    <div class="slider">
-        <img class="arrow left" src="assets/img/prev.png" alt="prev">
-        <img class="verticalPhone" src="assets/img/vertical.png" alt="verticalPhone">
-        <img class="horizontalPhone" src="assets/img/horizontal.png" alt="horizontalPhone">
-        <img class="arrow right" src="assets/img/next.png" alt="next">
-    </div>
-    <section class="ourServices">
-        <h3>Our services</h3>
-        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <div class="wrap">
-            <div class="ourServicesInner">
-                <div class="wrapImage">
-                    <img src="assets/img/pen.png" alt="pen"/>
-                </div>
-                <h5>Custom design</h5>
-                <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
-            </div>
-            <div class="ourServicesInner">
-                <div class="wrapImage">
-                    <img src="assets/img/bulb.png" alt="bulb"/>
-                </div>
-                <h5>Inovative ideas</h5>
-                <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
-            </div>
-            <div class="ourServicesInner">
-                <div class="wrapImage">
-                    <img src="assets/img/heart.png" alt="heart"/>
-                </div>
-                <h5>Love is the answer</h5>
-                <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
-            </div>
-            <div class="ourServicesInner">
-                <div class="wrapImage">
-                    <img src="assets/img/iphone.png" alt="phone"/>
-                </div>
-                <h5>Responsive layout</h5>
-                <p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
-            </div>
-            <div class="ourServicesInner">
-                <div class="wrapImage">
-                    <img src="assets/img/bubble.png" alt="bubble"/>
-                </div>
-                <h5>24 / 7 support</h5>
-                <p>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
-            </div>
-            <div class="ourServicesInner">
-                <div class="wrapImage">
-                    <img src="assets/img/star.png" alt="star"/>
-                </div>
-                <h5>Feel like a star</h5>
-                <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+    <section id="wrapper">
+        <div class="wrap_slider">
+            <div class="slider" id="home">
+                <img class="arrow left" src="assets/img/prev.png" alt="prev">
+                <img class="verticalPhone" src="assets/img/vertical.png" alt="verticalPhone">
+                <img class="horizontalPhone" src="assets/img/horizontal.png" alt="horizontalPhone">
+                <img class="arrow right" src="assets/img/next.png" alt="next">
             </div>
         </div>
-    </section>
-	<section class="portfolio">
-        <h2>Portfolio</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        <nav>
-            <ul>
-                <li><a href="#">All</a></li>
-                <li><a href="#">Web design</a></li>
-                <li><a href="#">Graphic design</a></li>
-                <li><a href="#">Artwork</a></li>
-            </ul>
-        </nav>
-        <div class="wrapProject">
-            <div class="itemsProject"><img src="assets/img/project1.png" alt="project1"></div>
-            <div class="itemsProject"><img src="assets/img/project2.png" alt="project2"></div>
-            <div class="itemsProject"><img src="assets/img/project3.png" alt="project3"></div>
-            <div class="itemsProject"><img src="assets/img/project4.png" alt="project4"></div>
-            <div class="itemsProject"><img src="assets/img/project5.png" alt="project5"></div>
-            <div class="itemsProject"><img src="assets/img/project6.png" alt="project6"></div>
-            <div class="itemsProject"><img src="assets/img/project7.png" alt="project7"></div>
-            <div class="itemsProject"><img src="assets/img/project8.png" alt="project8"></div>
-            <div class="itemsProject"><img src="assets/img/project9.png" alt="project9"></div>
-            <div class="itemsProject"><img src="assets/img/project10.png" alt="project10"></div>
-            <div class="itemsProject"><img src="assets/img/project11.png" alt="project11"></div>
-            <div class="itemsProject"><img src="assets/img/project12.png" alt="project12"></div>
-        </div>
-    </section>
-    <section class="aboutUs">
-        <h2>About us</h2>
-        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <div class="itemsUs">
-            <div class="innerUs">
-                <div class="itemsUs"><img src="assets/img/jensen.png" alt="Adam Jensen"/></div>
-                <h5>Adam Jensen</h5>
-		<div class="hiddenText">
-                	<p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
-		</div>
-                <div class="wrapButton">
-                    <a class="button" href="#"><img src="assets/img/fb.png" alt="facebook"></a>
-                    <a class="button" href="#"><img src="assets/img/google.png" alt="google+"></a>
-                    <a class="button" href="#"><img src="assets/img/twitter.png" alt="twitter"></a>
-                    <a class="button" href="#"><img src="assets/img/in.png" alt="linkedIn"></a>
+        <div class="ourServices" id="services">
+            <h3>Our services</h3>
+            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <div class="wrap">
+                <div class="ourServicesInner">
+                    <div class="wrapImage">
+                        <img src="assets/img/pen.png" alt="pen"/>
+                    </div>
+                    <h5>Custom design</h5>
+                    <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
                 </div>
-            </div>
-            <div class="innerUs">
-                <div class="itemsUs"><img src="assets/img/miles.png" alt="Desmond Miles"/></div>
-                <h5>Desmond Miles</h5>
-                <div class="hiddenText">
-		    <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
-		</div>
-                <div class="wrapButton">
-                    <a class="button" href="#"><img src="assets/img/fb.png" alt="facebook"></a>
-                    <a class="button" href="#"><img src="assets/img/google.png" alt="google+"></a>
-                    <a class="button" href="#"><img src="assets/img/twitter.png" alt="twitter"></a>
-                    <a class="button" href="#"><img src="assets/img/in.png" alt="linkedIn"></a>
+                <div class="ourServicesInner">
+                    <div class="wrapImage">
+                        <img src="assets/img/bulb.png" alt="bulb"/>
+                    </div>
+                    <h5>Inovative ideas</h5>
+                    <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
                 </div>
-            </div>
-            <div class="innerUs">
-                <div class="itemsUs"><img src="assets/img/visari.png" alt="Scolara Visari"/></div>
-                <h5>Scolara Visari</h5>
-                <div class="hiddenText">
-		    <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
-		</div>				
-                <div class="wrapButton">
-                    <a class="button" href="#"><img src="assets/img/fb.png" alt="facebook"></a>
-                    <a class="button" href="#"><img src="assets/img/google.png" alt="google+"></a>
-                    <a class="button" href="#"><img src="assets/img/twitter.png" alt="twitter"></a>
-                    <a class="button" href="#"><img src="assets/img/in.png" alt="linkedIn"></a>
+                <div class="ourServicesInner">
+                    <div class="wrapImage">
+                        <img src="assets/img/heart.png" alt="heart"/>
+                    </div>
+                    <h5>Love is the answer</h5>
+                    <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+                </div>
+                <div class="ourServicesInner">
+                    <div class="wrapImage">
+                        <img src="assets/img/iphone.png" alt="phone"/>
+                    </div>
+                    <h5>Responsive layout</h5>
+                    <p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
+                </div>
+                <div class="ourServicesInner">
+                    <div class="wrapImage">
+                        <img src="assets/img/bubble.png" alt="bubble"/>
+                    </div>
+                    <h5>24 / 7 support</h5>
+                    <p>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
+                </div>
+                <div class="ourServicesInner">
+                    <div class="wrapImage">
+                        <img src="assets/img/star.png" alt="star"/>
+                    </div>
+                    <h5>Feel like a star</h5>
+                    <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
                 </div>
             </div>
         </div>
-    </section>
-	    <div class="getQuote">
-        <h2>Get a Quote</h2>
-        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <div class="formWrap">
-            <div  class="contactForm">
-                <form>
-                    <input class="form" type="text"  placeholder="Name" title="Your name" required />
-                    <input class="form" type="email" name="email" placeholder="Example@site.com" title="E-mail format 'example@site.com'" required />
-                    <input class="form" type="text" placeholder="Subject" title="Subject" required />
-                    <textarea class="form" name="message" placeholder="Describe your project in detail..." rows="13" maxlength="500" title="Your message" required ></textarea>
-                    <button class="submit" type="submit">Submit</button>
-                </form>
+        <div class="portfolio" id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+            <div class="portfolio_tags">
+                <ul class="tags" id="tags">
+                    <li><button class="tags_item tags_item_active">All</button></li>
+                    <li><button class="tags_item">Web design</button></li>
+                    <li><button class="tags_item">Graphic design</button></li>
+                    <li><button class="tags_item">Artwork</button></li>
+                </ul>
             </div>
-            <div class="contactInformation">
-                <h3>Contact Information</h3>
-                <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
-                <div class="contact">
-                    <img src="assets/img/map.png" alt="map"/>
-                    <p>Elm St. 14/05 Lost City</p>
-                    <img src="assets/img/phone1.png" alt="phone"/>
-                    <p><a href="tel:03528-331-86-35" >03528 331 86 35</a></p>
-                    <img src="assets/img/email.png" alt="email"/>
-                    <p><a href="mailto:info@singolo.com">info@singolo.com </a></p>
+            <div class="wrapProject">
+                <ul>
+                    <li><div class="itemsProject"><img src="assets/img/project1.png"  alt="project1"></div></li>
+                    <li><div class="itemsProject"><img src="assets/img/project2.png" alt="project2"></div></li>
+                    <li><div class="itemsProject"><img src="assets/img/project3.png" alt="project3"></div></li>
+                    <li><div class="itemsProject"><img src="assets/img/project4.png" alt="project4"></div></li>
+                    <li><div class="itemsProject"><img src="assets/img/project5.png" alt="project5"></div></li>
+                    <li><div class="itemsProject"><img src="assets/img/project6.png" alt="project6"></div></li>
+                    <li><div class="itemsProject"><img src="assets/img/project7.png" alt="project7"></div></li>
+                    <li><div class="itemsProject"><img src="assets/img/project8.png" alt="project8"></div></li>
+                    <li><div class="itemsProject"><img src="assets/img/project9.png" alt="project9"></div></li>
+                    <li><div class="itemsProject"><img src="assets/img/project10.png" alt="project10"></div></li>
+                    <li><div class="itemsProject"><img src="assets/img/project11.png" alt="project11"></div></li>
+                    <li><div class="itemsProject"><img src="assets/img/project12.png" alt="project12"></div></li>
+                </ul>
+            </div>
+        </div>
+        <div class="aboutUs" id="aboutUs">
+            <h2>About us</h2>
+            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <div class="itemsUs">
+                <div class="innerUs">
+                    <div class="itemsUs"><img src="assets/img/jensen.png" alt="Adam Jensen"/></div>
+                    <h5>Adam Jensen</h5>
+                    <div class="hiddenText">
+                    <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p></div>
+                    <div class="wrapButton">
+                        <a class="button" href="#"><img src="assets/img/fb.png" alt="facebook"></a>
+                        <a class="button" href="#"><img src="assets/img/google.png" alt="google+"></a>
+                        <a class="button" href="#"><img src="assets/img/twitter.png" alt="twitter"></a>
+                        <a class="button" href="#"><img src="assets/img/in.png" alt="linkedIn"></a>
+                    </div>
                 </div>
+                <div class="innerUs">
+                    <div class="itemsUs"><img src="assets/img/miles.png" alt="Desmond Miles"/></div>
+                    <h5>Desmond Miles</h5>
 
+                    <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                    <div class="wrapButton">
+                        <a class="button" href="#"><img src="assets/img/fb.png" alt="facebook"></a>
+                        <a class="button" href="#"><img src="assets/img/google.png" alt="google+"></a>
+                        <a class="button" href="#"><img src="assets/img/twitter.png" alt="twitter"></a>
+                        <a class="button" href="#"><img src="assets/img/in.png" alt="linkedIn"></a>
+                    </div>
+                </div>
+                <div class="innerUs">
+                    <div class="itemsUs"><img src="assets/img/visari.png" alt="Scolara Visari"/></div>
+                    <h5>Scolara Visari</h5>
+                    <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+                    <div class="wrapButton">
+                        <a class="button" href="#"><img src="assets/img/fb.png" alt="facebook"></a>
+                        <a class="button" href="#"><img src="assets/img/google.png" alt="google+"></a>
+                        <a class="button" href="#"><img src="assets/img/twitter.png" alt="twitter"></a>
+                        <a class="button" href="#"><img src="assets/img/in.png" alt="linkedIn"></a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <footer>
-        <p class="copy">© Copyright 2013</p>
-        <div class="iconWrap">
-            <ul>
-                <li><a class="icon" href="#"><img src="assets/img/fb.png" alt="facebook"></a></li>
-                <li><a class="icon" href="#"><img src="assets/img/google.png" alt="google+"></a></li>
-                <li><a class="icon" href="#"><img src="assets/img/twitter.png" alt="twitter"></a></li>
-                <li><a class="icon" href="#"><img src="assets/img/in.png" alt="linkedIn"></a></li>
-            </ul>
+        <div class="getQuote" id="contact">
+            <h2>Get a Quote</h2>
+            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <div class="formWrap">
+                <div  class="contactForm">
+                    <form>
+                        <input class="form" type="text"  placeholder="Name" title="Your name" required />
+                        <input class="form" type="email" name="email" placeholder="Example@site.com" title="E-mail format 'example@site.com'" required />
+                        <input class="form" type="text" placeholder="Subject" title="Subject" required />
+                        <textarea class="form" name="message" placeholder="Describe your project in detail..." rows="13" maxlength="500" title="Your message" required ></textarea>
+                        <button class="submit" type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="contactInformation">
+                    <h3>Contact Information</h3>
+                    <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
+                    <div class="contact">
+                        <img src="assets/img/map.png" alt="map"/>
+                        <p>Elm St. 14/05 Lost City</p>
+                        <img src="assets/img/phone1.png" alt="phone"/>
+                        <p><a href="tel:03528-331-86-35" >03528 331 86 35</a></p>
+                        <img src="assets/img/email.png" alt="email"/>
+                        <p><a href="mailto:info@singolo.com">info@singolo.com </a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+        <footer>
+            <p class="copy">© Copyright 2013</p>
+            <div class="iconWrap">
+                <ul>
+                    <li><a class="icon" href="#"><img src="assets/img/fb.png" alt="facebook"></a></li>
+                    <li><a class="icon" href="#"><img src="assets/img/google.png" alt="google+"></a></li>
+                    <li><a class="icon" href="#"><img src="assets/img/twitter.png" alt="twitter"></a></li>
+                    <li><a class="icon" href="#"><img src="assets/img/in.png" alt="linkedIn"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </section>
+        <script src="script.js"></script>
 </body>
 </html>
